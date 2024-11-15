@@ -355,9 +355,11 @@ class Anilist extends AnimeParser {
 
     const options = {
       headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
+    'Content-Type': 'application/json',
+    Accept: 'application/json',
+    Referer: 'https://anilist.co',
+},
+
       query: anilistMediaDetailQuery(id),
     };
 
