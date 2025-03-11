@@ -113,36 +113,39 @@ export class MegaUp extends VideoExtractor {
     return decodeURIComponent(n);
   };
   Decode = (n: string) => {
-    n = this.#reverseIt(
-      this.#substitute(
-        this.#transform(
-          'fnxEj3tD4Bl0X',
-          this.#base64UrlDecode(
-            this.#transform(
-              'IjilzMV57GrnF',
-              this.#base64UrlDecode(
-                this.#substitute(
-                  this.#reverseIt(
-                    this.#substitute(
-                      this.#transform(
-                        'PlzI69YVCtGwoa8',
-                        this.#base64UrlDecode(this.#reverseIt(this.#base64UrlDecode((n = `${n}`))))
-                      ),
-                      'c2IfHZwSX1mj',
-                      'mwfXcS2ZjI1H'
-                    )
-                  ),
-                  '82NkgQDYbIF',
-                  '82IQNkFgYbD'
+    n = this.#substitute(
+      this.#transform(
+        "fnxEj3tD4Bl0X",
+        this.#base64UrlDecode(
+          this.#reverseIt(
+            this.#reverseIt(
+              this.#transform(
+                "IjilzMV57GrnF",
+                this.#base64UrlDecode(
+                  this.#substitute(
+                    this.#reverseIt(
+                      this.#substitute(
+                        this.#transform(
+                          "PlzI69YVCtGwoa8",
+                          this.#base64UrlDecode(this.#base64UrlDecode(`${n}`))
+                        ),
+                        "c2IfHZwSX1mj",
+                        "mwfXcS2ZjI1H"
+                      )
+                    ),
+                    "82NkgQDYbIF",
+                    "82IQNkFgYbD"
+                  )
                 )
               )
             )
           )
-        ),
-        'crwkth05iJR8',
-        'JRkt8rw0i5ch'
-      )
+        )
+      ),
+      "crwkth05iJR8",
+      "JRkt8rw0i5ch"
     );
+    
 
     return decodeURIComponent(n);
   };
