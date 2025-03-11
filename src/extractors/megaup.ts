@@ -116,31 +116,31 @@ export class MegaUp extends VideoExtractor {
     n = this.#reverseIt(
       this.#substitute(
         this.#transform(
-          '5ygxI8hjLiuDQ0',
+          'fnxEj3tD4Bl0X',
           this.#base64UrlDecode(
             this.#transform(
-              'z9cWnXuoDtx',
+              'IjilzMV57GrnF',
               this.#base64UrlDecode(
                 this.#substitute(
                   this.#reverseIt(
                     this.#substitute(
                       this.#transform(
-                        'EZnfG1IL6DF',
+                        'PlzI69YVCtGwoa8',
                         this.#base64UrlDecode(this.#reverseIt(this.#base64UrlDecode((n = `${n}`))))
                       ),
-                      'M2DCEbQmWOe',
-                      'bEDCeOQ2mWM'
+                      'c2IfHZwSX1mj',
+                      'mwfXcS2ZjI1H'
                     )
                   ),
-                  'Lw7nfcTNz3FbWy',
-                  'TFf37zywcNWnLb'
+                  '82NkgQDYbIF',
+                  '82IQNkFgYbD'
                 )
               )
             )
           )
         ),
-        'HK0TOgYzU1C',
-        'T1CHYU0OKgz'
+        'crwkth05iJR8',
+        'JRkt8rw0i5ch'
       )
     );
 
